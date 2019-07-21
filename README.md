@@ -1,2 +1,2 @@
-# mirror1
-mirror1
+# Mirrors for EndeavourOS repos
+
