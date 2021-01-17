@@ -11,6 +11,9 @@ Server = https://mirror.linux.pizza/endeavouros/repo/$repo/$arch
 ## China
 Server = https://mirrors.tuna.tsinghua.edu.cn/endeavouros/repo/$repo/$arch
 
+## India
+Server = https://mirror.ghead.work/endeavouros/repo/$repo/$arch
+
 ## Github
 Server = https://raw.githubusercontent.com/endeavouros-team/repo/master/$repo/$arch
 
