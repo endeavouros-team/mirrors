@@ -24,6 +24,7 @@ Server = https://raw.githubusercontent.com/endeavouros-team/repo/master/$repo/$a
 ```
 
 ## Github Fallbacks:
+Note: these fallbacks do not work with `pacman` version 6.0.0.
 ```
 https://github.com/endeavouros-team/mirrors/releases/download/mirror1/
 https://github.com/endeavouros-team/mirrors/releases/download/mirror2/
@@ -51,7 +52,6 @@ HoldPkg     = pacman glibc
 #XferCommand = /usr/bin/curl -L -C - -f -o %o %u
 #XferCommand = /usr/bin/wget --passive-ftp -c -O %o %u
 #CleanMethod = KeepInstalled
-#UseDelta    = 0.7
 Architecture = auto
 
 # Pacman won't upgrade packages listed in IgnorePkg and members of IgnoreGroup
