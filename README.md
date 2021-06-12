@@ -30,6 +30,8 @@ https://github.com/endeavouros-team/mirrors/releases/download/mirror1/
 https://github.com/endeavouros-team/mirrors/releases/download/mirror2/
 ```
 ## default EndeavourOS pacman.conf
+To update from older installs:
+`wget https://raw.githubusercontent.com/endeavouros-team/install-scripts/master/pacman.conf && sudo cp pacman.conf /etc/`
 ```
 #
 # /etc/pacman.conf
