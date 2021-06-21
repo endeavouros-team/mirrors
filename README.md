@@ -2,6 +2,7 @@
 ```
 ## Germany
 Server = https://mirror.alpix.eu/endeavouros/repo/$repo/$arch
+Server = https://de.freedif.org/EndeavourOS/repo/$repo/$arch
 
 ## Netherlands
 Server = https://mirror.easylee.nl/endeavouros/repo/$repo/$arch
@@ -19,8 +20,12 @@ Server = https://mirrors.tuna.tsinghua.edu.cn/endeavouros/repo/$repo/$arch
 ## India
 Server = https://mirror.ghead.work/endeavouros/repo/$repo/$arch
 
+## Vietnam
+Server = https://mirror.freedif.org/EndeavourOS/repo/$repo/$arch
+
 ## Github
 Server = https://raw.githubusercontent.com/endeavouros-team/repo/master/$repo/$arch
+
 ```
 
 ## Github Fallbacks:
