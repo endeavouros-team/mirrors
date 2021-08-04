@@ -1,11 +1,26 @@
 # Mirrors for EndeavourOS repos
 ```
+######################################################
+####                                              ####
+###        EndeavourOS Repository Mirrorlist       ###
+####                                              ####
+######################################################
+#### Entry in file /etc/pacman.conf:
+###     [endeavouros]
+###     SigLevel = PackageRequired
+###     Include = /etc/pacman.d/endeavouros-mirrorlist
+######################################################
+### Tip: Use the 'eos-rankimirrors' program to rank
+###      these mirrors or re-order them manually.
+######################################################
+
 ## Germany
 Server = https://mirror.alpix.eu/endeavouros/repo/$repo/$arch
 Server = https://de.freedif.org/EndeavourOS/repo/$repo/$arch
+Server = https://mirror.moson.org/endeavouros/repo/$repo/$arch
 
 ## Netherlands
-Server = https://mirror.easylee.nl/endeavouros/repo/$repo/$arch
+Server = https://mirror.erickochen.nl/endeavouros/repo/$repo/$arch
 
 ## Sweden
 Server = https://ftp.acc.umu.se/mirror/endeavouros/repo/$repo/$arch
@@ -17,14 +32,12 @@ Server = https://ca.gate.endeavouros.com/endeavouros/repo/$repo/$arch
 ## China
 Server = https://mirrors.tuna.tsinghua.edu.cn/endeavouros/repo/$repo/$arch
 
-## India
-Server = https://mirror.ghead.work/endeavouros/repo/$repo/$arch
-
 ## Vietnam
 Server = https://mirror.freedif.org/EndeavourOS/repo/$repo/$arch
 
 ## Github
 Server = https://raw.githubusercontent.com/endeavouros-team/repo/master/$repo/$arch
+
 
 ```
 
@@ -59,6 +72,7 @@ HoldPkg     = pacman glibc
 #XferCommand = /usr/bin/curl -L -C - -f -o %o %u
 #XferCommand = /usr/bin/wget --passive-ftp -c -O %o %u
 #CleanMethod = KeepInstalled
+#UseDelta    = 0.7
 Architecture = auto
 
 # Pacman won't upgrade packages listed in IgnorePkg and members of IgnoreGroup
@@ -73,9 +87,10 @@ Architecture = auto
 Color
 ILoveCandy
 #NoProgressBar
-CheckSpace
-#VerbosePkgLists
-#ParallelDownloads = 5
+#CheckSpace
+VerbosePkgLists
+DisableDownloadTimeout
+ParallelDownloads = 10
 
 # By default, pacman accepts packages signed by keys that its local keyring
 # trusts (see pacman-key and its man page), as well as unsigned packages.
@@ -143,4 +158,5 @@ Include = /etc/pacman.d/endeavouros-mirrorlist
 #[custom]
 #SigLevel = Optional TrustAll
 #Server = file:///home/custompkgs
+
 ```
