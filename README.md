@@ -32,6 +32,9 @@ Server = https://ca.gate.endeavouros.com/endeavouros/repo/$repo/$arch
 ## China
 Server = https://mirrors.tuna.tsinghua.edu.cn/endeavouros/repo/$repo/$arch
 
+## Singapore
+Server = https://mirror.jingk.ai/endeavouros/repo/$repo/$arch
+
 ## Vietnam
 Server = https://mirror.freedif.org/EndeavourOS/repo/$repo/$arch
 
