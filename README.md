@@ -1,4 +1,8 @@
 # Mirrors for EndeavourOS repos
+
+
+[![Maintenance](https://img.shields.io/maintenance/yes/2021.svg)]()
+
 ```
 ######################################################
 ####                                              ####
