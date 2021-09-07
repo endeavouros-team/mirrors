@@ -46,10 +46,10 @@ Server = https://raw.githubusercontent.com/endeavouros-team/repo/master/$repo/$a
 ```
 
 ## Github Fallbacks:
-Note: these fallbacks do not work with `pacman` version 6.0.0.
+Note: these fallbacks fail with `pacman` 6.0.0. However, pacman 6.0.1 works again.
 ```
-https://github.com/endeavouros-team/mirrors/releases/download/mirror1/
-https://github.com/endeavouros-team/mirrors/releases/download/mirror2/
+https://github.com/endeavouros-team/mirrors/releases/download/mirror1
+https://github.com/endeavouros-team/mirrors/releases/download/mirror2
 ```
 ## default EndeavourOS pacman.conf
 To update from older installs:
