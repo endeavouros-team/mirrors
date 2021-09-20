@@ -3,6 +3,8 @@
 
 [![Maintenance](https://img.shields.io/maintenance/yes/2021.svg)]()
 
+[Latest endeavouros-mirrorlist](https://gitlab.com/endeavouros-filemirror/PKGBUILDS/blob/master/endeavouros-mirrorlist/endeavouros-mirrorlist)
+
 ```
 ######################################################
 ####                                              ####
@@ -46,14 +48,16 @@ Server = https://raw.githubusercontent.com/endeavouros-team/repo/master/$repo/$a
 ```
 
 ## Github Fallbacks:
-Note: these fallbacks fail with `pacman` 6.0.0. However, pacman 6.0.1 works again.
+Note: these fallbacks fail with `pacman` 6.0.0. However, `pacman` 6.0.1 works again.
 ```
 https://github.com/endeavouros-team/mirrors/releases/download/mirror1
 https://github.com/endeavouros-team/mirrors/releases/download/mirror2
 ```
-## default EndeavourOS pacman.conf
+## Default EndeavourOS `pacman.conf`
 To update from older installs:
-`wget https://raw.githubusercontent.com/endeavouros-team/install-scripts-next/master/pacman.conf && sudo cp pacman.conf /etc/`
+```
+wget https://raw.githubusercontent.com/endeavouros-team/install-scripts-next/master/pacman.conf && sudo cp pacman.conf /etc/
+```
 ```
 #
 # /etc/pacman.conf
