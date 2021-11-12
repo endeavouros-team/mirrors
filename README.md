@@ -25,9 +25,6 @@ Server = https://mirror.alpix.eu/endeavouros/repo/$repo/$arch
 Server = https://de.freedif.org/EndeavourOS/repo/$repo/$arch
 Server = https://mirror.moson.org/endeavouros/repo/$repo/$arch
 
-## Netherlands
-Server = https://mirror.erickochen.nl/endeavouros/repo/$repo/$arch
-
 ## Sweden
 Server = https://ftp.acc.umu.se/mirror/endeavouros/repo/$repo/$arch
 Server = https://mirror.linux.pizza/endeavouros/repo/$repo/$arch
@@ -41,10 +38,12 @@ Server = https://mirrors.tuna.tsinghua.edu.cn/endeavouros/repo/$repo/$arch
 ## Vietnam
 Server = https://mirror.freedif.org/EndeavourOS/repo/$repo/$arch
 
-## Github
-Server = https://raw.githubusercontent.com/endeavouros-team/repo/master/$repo/$arch
+## Singapore
+Server = https://mirror.jingk.ai/endeavouros/repo/$repo/$arch
+Server = http://mirror.jingk.ai/endeavouros/repo/$repo/$arch
 
-
+## France
+Server = https://endeavour.remi.lu/repo/$repo/$arch
 ```
 
 ## Github Fallbacks:
@@ -52,6 +51,7 @@ Note: these fallbacks fail with `pacman` 6.0.0. However, `pacman` 6.0.1 works ag
 ```
 https://github.com/endeavouros-team/mirrors/releases/download/mirror1
 https://github.com/endeavouros-team/mirrors/releases/download/mirror2
+https://raw.githubusercontent.com/endeavouros-team/repo/master/$repo/$arch
 ```
 ## Default EndeavourOS `pacman.conf`
 To update from older installs:
