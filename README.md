@@ -16,7 +16,7 @@
 ###     SigLevel = PackageRequired
 ###     Include = /etc/pacman.d/endeavouros-mirrorlist
 ######################################################
-### Tip: Use the 'eos-rankimirrors' program to rank
+### Tip: Use the 'eos-rankmirrors' program to rank
 ###      these mirrors or re-order them manually.
 ######################################################
 
@@ -34,9 +34,6 @@ Server = https://ca.gate.endeavouros.com/endeavouros/repo/$repo/$arch
 
 ## China
 Server = https://mirrors.tuna.tsinghua.edu.cn/endeavouros/repo/$repo/$arch
-
-## Vietnam
-Server = https://mirror.freedif.org/EndeavourOS/repo/$repo/$arch
 
 ## Singapore
 Server = https://mirror.jingk.ai/endeavouros/repo/$repo/$arch
