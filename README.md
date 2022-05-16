@@ -32,6 +32,10 @@ Server = https://mirror.linux.pizza/endeavouros/repo/$repo/$arch
 ## Canada
 Server = https://ca.gate.endeavouros.com/endeavouros/repo/$repo/$arch
 
+## Iran
+Server = https://mirror.bardia.tech/endeavouros/repo/$repo/$arch
+Server = http://mirror.bardia.tech/endeavouros/repo/$repo/$arch
+
 ## China
 Server = https://mirrors.tuna.tsinghua.edu.cn/endeavouros/repo/$repo/$arch
 
