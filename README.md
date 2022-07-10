@@ -41,6 +41,10 @@ Server = http://mirror.jingk.ai/endeavouros/repo/$repo/$arch
 
 ## France
 Server = https://endeavour.remi.lu/repo/$repo/$arch
+
+## Ukraine
+Server = https://fastmirror.pp.ua/endeavouros/repo/$repo/$arch
+Server = http://fastmirror.pp.ua/endeavouros/repo/$repo/$arch
 ```
 
 ## Github Fallbacks
