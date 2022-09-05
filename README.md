@@ -3,6 +3,14 @@
 
 [![Maintenance](https://img.shields.io/maintenance/yes/2022.svg)]()
 
+# If you want to add mirror our repository please create a pull request here.
+
+Contact one of the team here at GitHub:
+https://github.com/endeavouros-team
+
+Or at our Forum: 
+https://forum.endeavouros.com
+
 [Latest up-to-date endeavouros-mirrorlist](https://gitlab.com/endeavouros-filemirror/PKGBUILDS/blob/master/endeavouros-mirrorlist/endeavouros-mirrorlist)
 
 ```
