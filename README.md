@@ -42,6 +42,9 @@ Server = https://mirror.moson.org/endeavouros/repo/$repo/$arch
 ## France
 Server = https://endeavour.remi.lu/repo/$repo/$arch
 
+## Moldova
+Server = https://md.mirrors.hacktegic.com/endeavouros/repo/$repo/$arch
+
 ## Singapore
 Server = https://mirror.jingk.ai/endeavouros/repo/$repo/$arch
 Server = https://mirror.freedif.org/EndeavourOS/repo/$repo/$arch
