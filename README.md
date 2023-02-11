@@ -27,6 +27,8 @@ https://forum.endeavouros.com
 ### Tip: Use the 'eos-rankmirrors' program to rank
 ###      these mirrors or re-order them manually.
 ######################################################
+## India
+Server = https://mirror.albony.xyz/endeavouros/repo/$repo/$arch
 
 ## Canada
 Server = https://ca.gate.endeavouros.com/endeavouros/repo/$repo/$arch
