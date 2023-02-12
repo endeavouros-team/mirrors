@@ -144,6 +144,10 @@ LocalFileSigLevel = Optional
 #[testing]
 #Include = /etc/pacman.d/mirrorlist
 
+[endeavouros]
+SigLevel = PackageRequired
+Include = /etc/pacman.d/endeavouros-mirrorlist
+
 [core]
 Include = /etc/pacman.d/mirrorlist
 
@@ -164,10 +168,6 @@ Include = /etc/pacman.d/mirrorlist
 
 [multilib]
 Include = /etc/pacman.d/mirrorlist
-
-[endeavouros]
-SigLevel = PackageRequired
-Include = /etc/pacman.d/endeavouros-mirrorlist
 
 # An example of a custom package repository.  See the pacman manpage for
 # tips on creating your own repositories.
