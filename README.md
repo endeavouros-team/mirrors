@@ -11,7 +11,7 @@ https://github.com/endeavouros-team
 Or at our Forum: 
 https://forum.endeavouros.com
 
-[Latest up-to-date endeavouros-mirrorlist](https://gitlab.com/endeavouros-filemirror/PKGBUILDS/blob/master/endeavouros-mirrorlist/endeavouros-mirrorlist)
+[Latest up-to-date endeavouros-mirrorlist](https://gitlab.com/endeavouros-filemirror/PKGBUILDS/-/raw/master/endeavouros-mirrorlist/endeavouros-mirrorlist)
 
 ```
 ######################################################
@@ -41,6 +41,7 @@ Server = https://mirror.moson.org/endeavouros/repo/$repo/$arch
 
 ## France
 Server = https://endeavour.remi.lu/repo/$repo/$arch
+Server = https://mirror.jordanrey.me/endeavouros/repo/$repo/$arch
 
 ## Singapore
 Server = https://mirror.jingk.ai/endeavouros/repo/$repo/$arch
@@ -58,10 +59,6 @@ Server = https://mirror.archlinux.tw/EndeavourOS/repo/$repo/$arch
 
 ## Ukraine
 Server = https://fastmirror.pp.ua/endeavouros/repo/$repo/$arch
-
-## Vietnam
-Server = https://mirrors.42tm.tech/endeavouros/repo/$repo/$arch
-
 ```
 
 ## Default EndeavourOS `pacman.conf`
