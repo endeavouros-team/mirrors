@@ -43,6 +43,9 @@ Server = https://mirror.moson.org/endeavouros/repo/$repo/$arch
 Server = https://endeavour.remi.lu/repo/$repo/$arch
 Server = https://mirror.jordanrey.me/endeavouros/repo/$repo/$arch
 
+## India
+Server = https://mirror.albony.xyz/endeavouros/repo/$repo/$arch
+
 ## Moldova
 Server = https://md.mirrors.hacktegic.com/endeavouros/repo/$repo/$arch
 
@@ -62,6 +65,9 @@ Server = https://mirror.archlinux.tw/EndeavourOS/repo/$repo/$arch
 
 ## Ukraine
 Server = https://fastmirror.pp.ua/endeavouros/repo/$repo/$arch
+
+## United States
+Server = https://mirrors.gigenet.com/endeavouros/repo/$repo/$arch
 ```
 
 ## Default EndeavourOS `pacman.conf`
