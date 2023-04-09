@@ -46,6 +46,9 @@ Server = https://mirror.jordanrey.me/endeavouros/repo/$repo/$arch
 ## India
 Server = https://mirror.albony.xyz/endeavouros/repo/$repo/$arch
 
+## Mauritius
+Server = https://endeavouros-mirror.cloud.mu/endeavouros/repo/$repo/$arch
+
 ## Moldova
 Server = https://md.mirrors.hacktegic.com/endeavouros/repo/$repo/$arch
 
