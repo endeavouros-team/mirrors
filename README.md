@@ -4,8 +4,7 @@
 ## want to add a mirror?
 We welcome any expansion of our mirror servers around the world. 
 It is our pleasure to add your mirror to the list. For all further information see here:
-https://raw.githubusercontent.com/endeavouros-team/mirrors/master/how-to-add-mirror
-
+how-to-add-mirror.md
 
 [Latest up-to-date endeavouros-mirrorlist](https://gitlab.com/endeavouros-filemirror/PKGBUILDS/-/raw/master/endeavouros-mirrorlist/endeavouros-mirrorlist)
 
