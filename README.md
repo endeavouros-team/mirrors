@@ -1,15 +1,11 @@
 # Mirrors for EndeavourOS repos
-
-
 [![Maintenance](https://img.shields.io/maintenance/yes/2023.svg)]()
 
-# If you want to add mirror our repository please create a pull request here.
+## want to add a mirror?
+We welcome any expansion of our mirror servers around the world. 
+It is our pleasure to add your mirror to the list. For all further information see here:
+https://raw.githubusercontent.com/endeavouros-team/mirrors/master/how-to-add-mirror
 
-Contact one of the team here at GitHub:
-https://github.com/endeavouros-team
-
-Or at our Forum: 
-https://forum.endeavouros.com
 
 [Latest up-to-date endeavouros-mirrorlist](https://gitlab.com/endeavouros-filemirror/PKGBUILDS/-/raw/master/endeavouros-mirrorlist/endeavouros-mirrorlist)
 
