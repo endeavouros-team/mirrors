@@ -8,25 +8,52 @@ Aside from the package repository we have one for the ISO itself.
  **To add a mirror we need the answers to the following questions to proceed:**
 * What bandwidth does your server have? Where is it located?
 * What is the url of "our" mirror? (Please make it available under /endeavouros if possible)
-* How much disk space are we allowed to occupy? 
+* How much disk space are we allowed to occupy at your Server?
 * Do you offer public rsync access and if yes, what's the rsync "url"?
 * Who is hosting the mirror?
 * We plan to have a list of all mirrors and the sponsors in the future, what website should we link for that mirror? And what Sponsor Name?
 * Can we use the mirror for both? ISO and repo?
-* how often and whether syncing is done.
+* how often and from where syncing is done.
 
 **General needed specifications and services:**
 
 1. Over 100 Mbits Bandwith.
-2. IPV4 and whether IPV6 should be incuded too.
+2. IPV4 is a basic requirement, please let us know if IPV6 is possible.
 3. Must **not** be behind Cloudflare or similar.
-4. Sync with rsync at minimum every 3 hours on a random minute from `alpix.eu.rsync.endeavouros.com::endeavouros`
+4. Optional we would like to see syncing with rsync at minimum every 3 hours on a random minute from 
+  `alpix.eu.rsync.endeavouros.com::endeavouros` Best would be to sync every hour if possible.
 
 **final procedure**
 The process of adding your mirror starts with sending an **Email** with the needed informations from above to:
-`alpix //at/(/ endeavouros.com`
+`alpix //at// endeavouros.com`
+
 **Please do not open pull requests or issues here at github about new mirror.**
 We will reply to inform you about the next steps so that we can start the internal testing phase.
+
+*Please copy all questions into your email and complete them with the appropriate answers:*
+
+```
+Mirror Server request from:
+Server URL:
+Contact Email:
+
+* What bandwidth does your server have? Where is it located?
+
+* What is the url of "our" mirror? (Please make it available under /endeavouros if possible)
+
+* How much disk space are we allowed to occupy at your Server?
+
+* Do you offer public rsync access and if yes, what's the rsync "url"?
+
+* Who is hosting the mirror?
+
+* We plan to have a list of all mirrors and the sponsors in the future, what website should we link for that mirror? And what Sponsor Name?
+
+* Can we use the mirror for both? ISO and repo?
+
+* how often and from where syncing is done.
+
+```
 
 If our tests are successful, the mirror will be added to the list and distributed to users in our 
 [mirror server package](https://github.com/endeavouros-team/PKGBUILDS/tree/master/endeavouros-mirrorlist) 
