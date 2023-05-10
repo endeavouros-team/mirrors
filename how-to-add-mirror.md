@@ -36,8 +36,10 @@ We will reply to inform you about the next steps so that we can start the intern
 ```
 Mirror Server request from:
 Server URL:
+Server Owner/Organisation:
 Contact Email:
 
+ **To add a mirror we need the answers to the following questions to proceed:**
 * What bandwidth does your server have? Where is it located?
 
 * What is the url of "our" mirror? (Please make it available under /endeavouros if possible)
@@ -50,9 +52,9 @@ Contact Email:
 
 * We plan to have a list of all mirrors and the sponsors in the future, what website should we link for that mirror? And what Sponsor Name?
 
-* Can we use the mirror for both? ISO and repo?
+* Can we use the mirror for both? ISO and repo? (depends on usable space)
 
-* how often and from where syncing is done.
+* how often and from where syncing is done?
 
 ```
 
