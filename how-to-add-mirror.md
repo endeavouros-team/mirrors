@@ -20,11 +20,12 @@ Aside from the package repository we have one for the ISO itself.
 1. Over 100 Mbits Bandwith.
 2. IPV4 and whether IPV6 should be incuded too.
 3. Must **not** be behind Cloudflare or similar.
-4. Sync with rsync at minimum every 3 hours on a random minute from alpix.eu.rsync.endeavouros.com::endeavouros
+4. Sync with rsync at minimum every 3 hours on a random minute from `alpix.eu.rsync.endeavouros.com::endeavouros`
 
 **final procedure**
-The process of adding your mirror starts with sending an email with the needed informations from above to:
-`emailadress@secured`
+The process of adding your mirror starts with sending an **Email** with the needed informations from above to:
+`alpix //at/(/ endeavouros.com`
+**Please do not open pull requests or issues here at github about new mirror.**
 We will reply to inform you about the next steps so that we can start the internal testing phase.
 
 If our tests are successful, the mirror will be added to the list and distributed to users in our 
