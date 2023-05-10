@@ -27,6 +27,7 @@ Server = https://ca.gate.endeavouros.com/endeavouros/repo/$repo/$arch
 
 ## China
 Server = https://mirrors.tuna.tsinghua.edu.cn/endeavouros/repo/$repo/$arch
+Server = https://mirrors.jlu.edu.cn/endeavouros/repo/$repo/$arch
 
 ## Germany
 Server = https://mirror.alpix.eu/endeavouros/repo/$repo/$arch
@@ -62,6 +63,7 @@ Server = https://fastmirror.pp.ua/endeavouros/repo/$repo/$arch
 
 ## United States
 Server = https://mirrors.gigenet.com/endeavouros/repo/$repo/$arch
+
 ```
 
 ## Default EndeavourOS `pacman.conf`
