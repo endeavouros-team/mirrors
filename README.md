@@ -1,5 +1,4 @@
 # Mirrors for EndeavourOS repos
-[![Maintenance](https://img.shields.io/maintenance/yes/2023.svg)]()
 
 ## want to add a mirror?
 We welcome any expansion of our mirror servers around the world. 
