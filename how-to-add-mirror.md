@@ -12,8 +12,8 @@ Aside from the package repository we have one for the ISO itself.
 * Do you offer public rsync access and if yes, what's the rsync "url"?
 * Who is hosting the mirror?
 * We plan to have a list of all mirrors and the sponsors in the future, what website should we link for that mirror? And what Sponsor Name?
-* Can we use the mirror for both? ISO and repo?
-* how often and from where syncing is done.
+* Can we use the mirror for both? ISO and repo? (depends on usable space)
+* how often and from where syncing is done?
 
 **General needed specifications and services:**
 
@@ -22,6 +22,7 @@ Aside from the package repository we have one for the ISO itself.
 3. Must **not** be behind Cloudflare or similar.
 4. Optional we would like to see syncing with rsync at minimum every 3 hours on a random minute from 
   `alpix.eu.rsync.endeavouros.com::endeavouros` Best would be to sync every hour if possible.
+5. Package repository needs around XXGB, ISO Repository is about XXGB in size and they will not increase much in the future.
 
 **final procedure**
 The process of adding your mirror starts with sending an **Email** with the needed informations from above to:
