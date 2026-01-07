@@ -58,6 +58,6 @@ To add a mirror we need the answers to the following questions to proceed:
 
 ```
 
-If our tests are successful, the mirror will be added to the list and distributed to users in our 
+We will monitor the server 1-2 weeks to test the stability. If our tests are successful, the mirror will be added to the list and distributed to users in our 
 [mirror server package](https://github.com/endeavouros-team/PKGBUILDS/tree/master/endeavouros-mirrorlist) 
 From that point on your Mirror will be used officially.
